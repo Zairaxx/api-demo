@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-// .Then-kedja / Promise chain
+// Alternativ 1: .Then-kedja / Promise chain
 // fetch('https://jsonplaceholder.typicode.com/todos')
 // .then(response => response.json())
 // .then(data => {
@@ -12,7 +12,7 @@ console.log("Hello world!");
 //     )
 // })
 
-// Async/Await
+// Alternativ 2: Async/Await
 
 let renderData = async () => {
     let response = await fetch('https://jsonplaceholder.typicode.com/todos');
